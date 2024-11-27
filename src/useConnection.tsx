@@ -24,7 +24,7 @@ export function useConnection(
   options: UseConnectionOptions
 ): UseConnectionReturn {
   const {
-    url = "ws://localhost:8080",
+    url = "https://chess-multiplayer-yceo.onrender.com",
     onMessage,
     onOpen,
     protocols,
